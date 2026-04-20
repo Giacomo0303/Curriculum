@@ -1,6 +1,5 @@
 \documentclass[11pt, a4paper]{article}
 
-% --- UNIVERSAL PREAMBLE BLOCK ---
 \usepackage[a4paper, top=2.2cm, bottom=2.2cm, left=2.2cm, right=2.2cm]{geometry}
 \usepackage{fontspec}
 
@@ -9,12 +8,9 @@
 \babelprovide[import, onchar=ids fonts]{italian}
 \babelprovide[import, onchar=ids fonts]{english}
 
-% Set default/Latin font to Sans Serif in the main (rm) slot
 \babelfont{rm}{Noto Sans}
 
-% Add because main language is not English
 \usepackage{enumitem}
-% Configurazione liste per renderle più eleganti
 \setlist[itemize]{label=\textcolor{primary}{\textbullet}, leftmargin=*, itemsep=2pt, parsep=0pt}
 
 % --- CUSTOM STYLING PACKAGES ---
@@ -22,21 +18,19 @@
 \usepackage{titlesec}
 \usepackage{tabularx}
 \usepackage{parskip}
+\usepackage{graphicx}
 
-% I due colori sobri ed eleganti scelti
-\definecolor{primary}{HTML}{1A4B84} % Blu Navy elegante
-\definecolor{textdark}{HTML}{222222} % Antracite/Grigio scuro per il testo
+\definecolor{primary}{HTML}{1A4B84}
+\definecolor{textdark}{HTML}{222222} 
 
-% Imposta il colore base del testo
 \color{textdark}
 
-% Formattazione Titoli di Sezione
 \titleformat{\section}
-  {\Large\bfseries\color{primary}} % Stile
-  {} % Nessun numero
-  {0em} % Distanza dal margine
-  {} % Codice prima del titolo
-  [\vspace{-0.3em}\textcolor{primary}{\rule{\textwidth}{1pt}}] % Linea orizzontale sotto il titolo
+  {\Large\bfseries\color{primary}} 
+  {}
+  {0em} 
+  {}
+  [\vspace{-0.3em}\textcolor{primary}{\rule{\textwidth}{1pt}}] 
 \titlespacing*{\section}{0pt}{3.5ex}{1.5ex}
 
 % Macro personalizzata per le voci di Esperienza e Istruzione
@@ -59,35 +53,56 @@
 \noindent
 \begin{minipage}[c]{0.75\textwidth}
     {\Huge \textbf{\textcolor{primary}{GIACOMO LOMBARDO}}}\\[0.5em]
-    {\Large \textbf{AI / ML Engineer}}\\[1em]
+    {\Large \textbf{Ingegnere Informatico $|$ AI \& Deep Learning Focus}}\\[1em]
     \small
     \href{mailto:giacomolombardo67@gmail.com}{giacomolombardo67@gmail.com} \quad|\quad 
     +39 3248703757 \\[0.3em]
-    Via G. De Stefani N°4, 91029 Santa Ninfa (TP) \\[0.3em]
-    Nato il 03/01/2003 \quad\\[0.3em]
-    \href{https://www.linkedin.com/in/giacomo-lombardo-a944b8315/}{LinkedIn: https://www.linkedin.com/in/giacomo-lombardo-a944b8315/}\\
-    \href{https://github.com/Giacomo0303}{GitHub: https://github.com/Giacomo0303}
-\end{minipage}%
+    Santa Ninfa (TP) / Palermo - Italy \\[0.3em]
+    \href{https://www.linkedin.com/in/giacomo-lombardo-a944b8315/}{linkedin.com/in/giacomo-lombardo-a944b8315} \\
+    \href{https://github.com/Giacomo0303}{github.com/Giacomo0303}
+\end{minipage}% <-- CHIUSURA MANCANTE INSERITA QUI
 \begin{minipage}[c]{0.25\textwidth}
     \begin{flushright}
-        % ISTRUZIONI PER LA FOTO REALE:
-        % Quando compilerai il file sul tuo PC, cancella il comando \framebox qui sotto
-        % e usa: \includegraphics[width=3cm]{nome_della_tua_foto.jpg}
-        % (Ricordati di aggiungere \usepackage{graphicx} nel preambolo in alto!)
-        \framebox{\parbox[c][4cm][c]{3cm}{\centering \textcolor{gray}{\small [Inserisci\\[0.2em]Foto Qui]}}}
+        \includegraphics[width=3.5cm]{img.jpg}
     \end{flushright}
 \end{minipage}
 \vspace{1.5em}
 
 % --- PROFILO ---
 \section{Profilo Professionale}
-Ingegnere Informatico (Laurea Triennale) attualmente in fase di specializzazione con un corso di Laurea Magistrale. Nutro un forte interesse per i campi dell'Intelligenza Artificiale, con focus specifico su \textbf{Computer Vision} ed \textbf{Elaborazione del Linguaggio Naturale (NLP)}. Dotato di una solida base algoritmica e architetturale, cerco una posizione come \textbf{AI/ML Engineer} per contribuire allo sviluppo di soluzioni all'avanguardia.
+Ingegnere Informatico (110/110 con lode) in fase di specializzazione tramite Laurea Magistrale, con forte interesse verso l'\textbf{Intelligenza Artificiale}. Durante il mio percorso accademico ho approfondito tecniche di \textbf{Machine Learning} e \textbf{AI} applicate principalmente alla \textbf{Computer Vision} e al \textbf{NLP}. Ho sviluppato competenze tecniche su framework come PyTorch e TensorFlow, anche attraverso il mio lavoro di tesi (focalizzato sull'ottimizzazione di Vision Transformers tramite tecniche di Pruning e NAS) e diversi progetti accademici. Cerco una realtà in cui poterle applicare, contribuendo allo sviluppo di soluzioni AI/ML e continuando a crescere professionalmente.
+
+% --- COMPETENZE ---
+\section{Competenze Tecniche}
+\begin{itemize}
+    \item \textbf{Intelligenza Artificiale:} Computer Vision, Natural Language Processing (NLP), Deep Learning, ML.
+    \item \textbf{Framework e Librerie AI:} PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy.
+    \item \textbf{Linguaggi di Programmazione:} Python (Focus AI \& Data Science), Java, C, JavaScript.
+    \item \textbf{Database, Dati \& Sistemi:} Database a grafo (Neo4j), Database Relazionali (SQL), JSON, XML, Linux, Windows.
+    \item \textbf{Strumenti \& IDE:} PyCharm, Visual Studio Code, Git.
+\end{itemize}
+
+% --- PROGETTI ---
+\section{Progetti Rilevanti}
+\begin{itemize}
+    \item \textbf{ViT Compression Framework} $|$ \textit{PyTorch} \\
+    Progettazione e sviluppo di un framework per la compressione di modelli Vision Transformer. Ottimizzazione dell'efficienza computazionale tramite Neural Architecture Search (NAS) e tecniche di pruning.
+
+    \item \textbf{DeepFake Detection con Attention} $|$ \textit{TensorFlow, Keras} \\
+    Sviluppo di un sistema per il riconoscimento di immagini deepfake. Implementato in prima battuta tramite modelli di ML classico, successivamente tramite reti CNN standard e architetture CNN dotate del meccanismo di \textbf{Attention}.
+
+    \item \textbf{SVD CNN Optimization} $|$ \textit{MATLAB} \\
+    Analisi matematica e implementazione della decomposizione a valori singolari (SVD) per valutare gli effetti della compressione del dataset in input sulle performance di classificazione di una Rete Neurale Convoluzionale.
+
+    \item \textbf{Face Morphing} $|$ \textit{Python, OpenCV} \\
+    Sistema di Computer Vision per la generazione automatica di transizioni video fluide (morphing) tra volti partendo da due immagini statiche in input.
+\end{itemize}
 
 % --- ESPERIENZA ---
 \section{Esperienza Professionale}
 
-\resumeItem{Sviluppatore AI / Tirocinio Engineering}{Luglio 2023 -- Ottobre 2023}{ITALTEL S.p.A.}{Palermo (PA)}
-Tirocinio curriculare tecnico (75 ore).
+\resumeItem{Sviluppatore AI / Tirocinio Engineering}{Luglio 2023 -- Ottobre 2023}{ITALTEL S.p.A.}{Carini (PA)}
+Tirocinio curriculare.
 \begin{itemize}
     \item \textbf{Progetto principale:} Progettazione e sviluppo di un software di Computer Vision dedicato al riconoscimento automatico e al conteggio di etichette in input fotografici.
     \item \textbf{Stack e Competenze:} Sviluppo e addestramento di modelli di Machine Learning utilizzando \textbf{TensorFlow} e le API \textbf{Keras}.
@@ -113,16 +128,6 @@ Tirocinio curriculare tecnico (75 ore).
 \vspace{-1.5em}
 \begin{itemize}
     \item Valutazione finale: \textbf{100/100 con lode}
-\end{itemize}
-
-% --- COMPETENZE ---
-\section{Competenze Tecniche}
-\begin{itemize}
-    \item \textbf{Intelligenza Artificiale:} Computer Vision, Natural Language Processing (NLP), Deep Learning, ML.
-    \item \textbf{Framework e Librerie AI:} PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy.
-    \item \textbf{Linguaggi di Programmazione:} Python (Focus AI \& Data Science), Java, C, JavaScript.
-    \item \textbf{Database, Dati \& Sistemi:} Database a grafo (Neo4j), Database Relazionali (SQL), JSON, XML, Linux, Windows.
-    \item \textbf{Strumenti \& IDE:} PyCharm, Git.
 \end{itemize}
 
 % --- CERTIFICAZIONI E LINGUE ---

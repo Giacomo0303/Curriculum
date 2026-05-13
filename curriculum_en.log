@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.24)  13 MAY 2026 11:45
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.24)  13 MAY 2026 11:51
  restricted system commands enabled.
  file:line:error style messages enabled.
-**c:/Users/giaco/Desktop/Curriculum/curriculum.tex
-(c:/Users/giaco/Desktop/Curriculum/curriculum.tex
+**c:/Users/giaco/Desktop/Curriculum/curriculum_en.tex
+(c:/Users/giaco/Desktop/Curriculum/curriculum_en.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -227,19 +227,19 @@ Inserting `Babel.pre_otfload_h' in `hpack_filter'.
 Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
 \bbl@attr@dir=\attribute5
-) (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex)
-Package babel Info: Importing data for italian
-(babel)             from babel-it.ini. Reported on input line 4330.
- (c:/texlive/2025/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-it.tex UTF-8 Italian hyphenation patterns (c:/texlive/2025/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-it.tex) (c:/texlive/2025/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-it.tex))) (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex)
-Package babel Info: Importing data for italian
-(babel)             from babel-it.ini. Reported on input line 8.
-Inserting `Babel.hyphenate' in `hyphenate'. (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+) (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 9.
+(babel)             from babel-en.ini. Reported on input line 4330.
+) (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 8.
+Inserting `Babel.hyphenate' in `hyphenate'. (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex)
+Package babel Info: Importing data for italian
+(babel)             from babel-it.ini. Reported on input line 9.
 luaotfload | cache : Lookup cache loaded from C:/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: 
-(fontspec)             Language 'Italian' not explicitly supported within font
+(fontspec)             Language 'English' not explicitly supported within font
 (fontspec)             'Noto Sans' with script 'Latin'. Check the typeset
 (fontspec)             output, and if it is okay then ignore this warning.
 (fontspec)             Otherwise a different font should be chosen.
@@ -248,30 +248,30 @@ Package fontspec Info:
 Package fontspec Info: 
 (fontspec)             Font family 'NotoSans(0)' created for font 'Noto Sans'
 (fontspec)             with options
-(fontspec)             [Ligatures=TeX,Script=Latin,Language=Italian,RawFeature={family=rm}].
+(fontspec)             [Ligatures=TeX,Script=Latin,Language=English,RawFeature={family=rm}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans:mode=node;script=latn;language=ITA;+tlig;family=rm;"
+(fontspec)             Sans:mode=node;script=latn;language=ENG;+tlig;family=rm;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
+(fontspec)             Sans:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans/B:mode=node;script=latn;language=ITA;+tlig;family=rm;"
+(fontspec)             Sans/B:mode=node;script=latn;language=ENG;+tlig;family=rm;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
 (fontspec)             <->"name:Noto
-(fontspec)             Sans/B:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
+(fontspec)             Sans/B:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans/I:mode=node;script=latn;language=ITA;+tlig;family=rm;"
+(fontspec)             Sans/I:mode=node;script=latn;language=ENG;+tlig;family=rm;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
 (fontspec)             <->"name:Noto
-(fontspec)             Sans/I:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
+(fontspec)             Sans/I:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans/BI:mode=node;script=latn;language=ITA;+tlig;family=rm;"
+(fontspec)             Sans/BI:mode=node;script=latn;language=ENG;+tlig;family=rm;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"name:Noto
-(fontspec)             Sans/BI:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
+(fontspec)             Sans/BI:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
 
  (c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
@@ -443,7 +443,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 
 Package fontspec Info: 
-(fontspec)             Language 'English' not explicitly supported within font
+(fontspec)             Language 'Italian' not explicitly supported within font
 (fontspec)             'Noto Sans' with script 'Latin'. Check the typeset
 (fontspec)             output, and if it is okay then ignore this warning.
 (fontspec)             Otherwise a different font should be chosen.
@@ -452,32 +452,32 @@ Package fontspec Info:
 Package fontspec Info: 
 (fontspec)             Font family 'NotoSans(1)' created for font 'Noto Sans'
 (fontspec)             with options
-(fontspec)             [Ligatures=TeX,Script=Latin,Language=English,RawFeature={family=rm}].
+(fontspec)             [Ligatures=TeX,Script=Latin,Language=Italian,RawFeature={family=rm}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans:mode=node;script=latn;language=ENG;+tlig;family=rm;"
+(fontspec)             Sans:mode=node;script=latn;language=ITA;+tlig;family=rm;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
+(fontspec)             Sans:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans/B:mode=node;script=latn;language=ENG;+tlig;family=rm;"
+(fontspec)             Sans/B:mode=node;script=latn;language=ITA;+tlig;family=rm;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
 (fontspec)             <->"name:Noto
-(fontspec)             Sans/B:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
+(fontspec)             Sans/B:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans/I:mode=node;script=latn;language=ENG;+tlig;family=rm;"
+(fontspec)             Sans/I:mode=node;script=latn;language=ITA;+tlig;family=rm;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
 (fontspec)             <->"name:Noto
-(fontspec)             Sans/I:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
+(fontspec)             Sans/I:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Noto
-(fontspec)             Sans/BI:mode=node;script=latn;language=ENG;+tlig;family=rm;"
+(fontspec)             Sans/BI:mode=node;script=latn;language=ITA;+tlig;family=rm;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"name:Noto
-(fontspec)             Sans/BI:mode=node;script=latn;language=ENG;+tlig;family=rm;+smcp;"
+(fontspec)             Sans/BI:mode=node;script=latn;language=ITA;+tlig;family=rm;+smcp;"
 
- (./curriculum.aux
+ (c:/texlive/2025/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-it.tex UTF-8 Italian hyphenation patterns (c:/texlive/2025/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-it.tex) (c:/texlive/2025/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-it.tex)) (./curriculum_en.aux
 
 Package babel Info: The following font families will use the default
 (babel)             settings for all or some languages:
@@ -492,7 +492,7 @@ Package babel Info: The following font families will use the default
 (babel)             Reported on input line 3.
 
 )
-\openout1 = curriculum.aux
+\openout1 = curriculum_en.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
@@ -635,10 +635,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 50.
- (./curriculum.out) (./curriculum.out)
+ (./curriculum_en.out) (./curriculum_en.out)
 \@outlinefile=\write3
 
-\openout3 = curriculum.out
+\openout3 = curriculum_en.out
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -659,33 +659,28 @@ Overfull \hbox (1.89798pt too wide) in paragraph at lines 53--70
 $[]$$[]$  
  []
 
-
-Overfull \hbox (0.7909pt too wide) in paragraph at lines 88--90
-\TU/NotoSans(0)/m/n/10.95 mer. Ot-ti-miz-za-zio-ne del-l’ef-fi-cien-za com-pu-ta-zio-na-le tra-mi-te Neu-ral Ar-chi-tec-tu-re Search (NAS)
- []
-
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./img.jpg>] [2] (./curriculum.aux)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./img.jpg>] [2] (./curriculum_en.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `curriculum.out' has not changed.
-(rerunfilecheck)             Checksum: 02ACCD8FBFC85C4E1F39CC52744F5715;922.
+Package rerunfilecheck Info: File `curriculum_en.out' has not changed.
+(rerunfilecheck)             Checksum: 04FFCE552911CF8C723F82FB2F97B4F1;912.
 )
 
 Here is how much of LuaTeX's memory you used:
  14422 strings out of 476076
  125086,794899 words of node,token memory allocated
- 706 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 glyph, 95 attribute, 54 glue_spec, 33 attribute_list, 1 write nodes
-   avail lists: 1:2,2:13160,3:305,4:192,5:412,6:55,7:8595,8:2,9:353,10:24,11:1211
+ 646 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 84 attribute, 54 glue_spec, 29 attribute_list, 1 write nodes
+   avail lists: 1:2,2:11985,3:302,4:192,5:414,6:55,7:7829,8:2,9:353,10:25,11:678
  36618 multiletter control sequences out of 65536+600000
  77 fonts using 25460087 bytes
- 73i,7n,106p,1232b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,7n,106p,1235b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Italic.ttf><c:/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regular.ttf><c:/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Bold.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on curriculum.pdf (2 pages, 256680 bytes).
+Output written on curriculum_en.pdf (2 pages, 257063 bytes).
 
 PDF statistics: 72 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

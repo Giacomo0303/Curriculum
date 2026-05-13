@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1778665536.7072 "c:/Users/giaco/Desktop/Curriculum/curriculum.tex" "curriculum.pdf" "curriculum" 1778665538.22761 0
+["lualatex"] 1778665916.65142 "c:/Users/giaco/Desktop/Curriculum/curriculum_en.tex" "curriculum_en.pdf" "curriculum_en" 1778665918.22457 0
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1776686464 81829 1c96172dcc0fdd12ccd5b0412b92f7d7 ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1776686462 128402 4daa5b85140b564a88355e000891f71a ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1776686462 127319 9cd380c6aaf110ec9845faa80c66918b ""
@@ -10,7 +10,7 @@
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/notosans-regular.luc" 1776686463 643167 9c965180bc79b6b40f27a66d3421702e ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1777730343 4634 633c4b8fc1e6e24063371fae1dd909e5 ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1776686462 338712 35b09fd8f95f39e6ee8b3b6310a7bd66 ""
-  "c:/Users/giaco/Desktop/Curriculum/curriculum.tex" 1778665350 7383 92a00dff37fbf75cbfc767b0899ecbc5 ""
+  "c:/Users/giaco/Desktop/Curriculum/curriculum_en.tex" 1778665880 7108 1518fd3a0926761e3bf6eb5626e5eb3e ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1771948058 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1771948058 1528 abec98dbc43e172678c11b3b9031252a ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1771948058 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -155,13 +155,13 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1771952727 5587484 49bd08ff372a6985d7d70778694ddaac ""
   "c:/texlive/2025/texmf-var/tex/generic/config/language.dat" 1771952717 7090 e5680fba378593e5c74202448cb1acd0 ""
   "c:/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt" 1771952849 5657807 8ecae68d5e3c3bc80d6620857187b621 ""
-  "curriculum.aux" 1778665538 990 8381fd3f927e0b5288c01442948cda75 "lualatex"
-  "curriculum.out" 1778665538 922 02accd8fbfc85c4e1f39cc52744f5715 "lualatex"
-  "curriculum.tex" 1778665350 7383 92a00dff37fbf75cbfc767b0899ecbc5 ""
+  "curriculum_en.aux" 1778665918 988 d7609565dc524a6db70ff54dbb29d30b "lualatex"
+  "curriculum_en.out" 1778665918 912 04ffce552911cf8c723f82fb2f97b4f1 "lualatex"
+  "curriculum_en.tex" 1778665880 7108 1518fd3a0926761e3bf6eb5626e5eb3e ""
   "img.jpg" 1776696885 202459 7015fec0e119f668af940d52b17ca6d9 ""
   (generated)
-  "curriculum.aux"
-  "curriculum.log"
-  "curriculum.out"
-  "curriculum.pdf"
+  "curriculum_en.aux"
+  "curriculum_en.log"
+  "curriculum_en.out"
+  "curriculum_en.pdf"
   (rewritten before read)
